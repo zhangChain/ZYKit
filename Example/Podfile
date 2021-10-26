@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZYKit_Example' do
+  pod 'ZYKit', :path => '../'
+
+  target 'ZYKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
