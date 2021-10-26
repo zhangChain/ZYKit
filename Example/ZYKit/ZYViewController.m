@@ -7,7 +7,7 @@
 //
 
 #import "ZYViewController.h"
-
+#import "NSString+ZYString.h"
 @interface ZYViewController ()
 
 @end
@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [NSString test];
 }
 
 - (void)didReceiveMemoryWarning

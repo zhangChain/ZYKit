@@ -1,0 +1,22 @@
+{
+  "name": "ZYKit",
+  "version": "0.1.0",
+  "summary": "A short description of ZYKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangChain/ZYKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangChain": "1400276018@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangChain/ZYKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZYKit/Classes/**/*"
+}
